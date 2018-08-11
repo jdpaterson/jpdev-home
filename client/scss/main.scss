@@ -1,3 +1,7 @@
 @import 'settings.scss';
 @import '../../node_modules/foundation-sites/scss/foundation';
 @include foundation-everything;
+
+div{
+  background-color: $color2;
+}
