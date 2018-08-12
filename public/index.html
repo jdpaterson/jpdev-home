@@ -7,12 +7,23 @@
   </head>
   <body>
     <div class="grid-container grid-container-bg small-margin-x" >
-      <div class="grid-x grid-margin-x align-center" >
+      <br>
+
+      <!-- Header -->
+
+      <div class="grid-x grid-margin-x " >
+        <div class="cell text-center" >
+          <img src="/img/profile.jpg" class="profile" alt="profile pic" />
+        </div>
         <div class="cell text-center" style="margin-top:1em">
           <h2 class="h2">Jeremy Paterson</h2>
           <h3 class="subheader h5">Web Developer</h3>
         </div>
       </div>
+      <br>
+
+      <!-- Profile Icon Links (LinkedIn, Github, Phone, Email) -->
+
       <div class="grid-x grid-margin-x" >
         <div class="cell shrink small-11 medium-5 large-6 large-offset-1 text-center contact-icon">
           <span><i><img height="16px" width="16px" src="/img/phone.png" /></i> (416) 660-1892</span>
@@ -35,28 +46,74 @@
           </span>
         </div>
       </div>
+
+      <!-- Headline -->
       <div class="grid-x align-center grid-padding-y  ">
         <div class="cell large-8 medium-6 small-text-left medium-text-center large-text-center">
           <section class="content">
-            <p class="lead" >An eager web developer strong in both front and back-end
-              with a background in Salesforce.com development and administration. My skills lie
-              in identifying and providing business solutions which increase productivity and user experience through efficiency.
+            <p class="lead" >Full-stack developer eager to face new challenges, learn from new teams, and solve problems.
             </p>
           </section>
         </div>
       </div>
+
+      <!-- Skills -->
+
       <div class="grid-x align-center">
         <div class="cell large-8 medium-8 small-text-left medium-text-left large-text-left">
           <section class="content">
             <ul class="no-bullet">
-              <li><strong>Languages</strong>: Javascript, EJS, JSX, Ruby, PHP, Apex, Visualforce</li>
-              <li><strong>Frameworks/Libraries</strong>: React.js, Angular.js, jQuery, Node.js, Zurb Foundation 6 </li>
-              <li><strong>Systems/CMS/Databases</strong>: SQL, MongoDB, Salesforce.com, Netsuite.com, WordPress</li>
-              <li><strong>Testing</strong>: Mocha </li>
+              <li><strong>Languages:</strong> Javascript, Ruby, PHP</li>
+              <li><strong>Frameworks/Libraries:</strong> React.js, jQuery</li>
+              <li><strong>Systems/Databases:</strong> PostgreSQL, MongoDB, Salesforce.com, Netsuite.com</li>
+              <li><strong>Testing:</strong> Mocha</li>
             </ul>
           </section>
         </div>
       </div>
+      <br>
+
+      <!-- Projects -->
+      <div class="grid-x" >
+        <h1 class="h4 cell text-center">Projects: </h1>
+      </div>
+      <br>
+      <div class="grid-x align-center grid-padding-x">
+        <div class="cell large-5">
+          <a href="#" >
+            <div class="callout project">
+              <p>lynkWall: A Pinterest-esque resource wall using Node, Express.js,
+                PostgreSQL, and styled with Foundation 6.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="cell large-5">
+          <a href="#" >
+            <div class="callout project" >
+              <p>Table-Four: A restaurant waiting list app using Node, Express.js,
+                Socket.io, React.js, PostgreSQL with Massive.js, and styled with Bulma
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="cell large-5">
+          <a href="#" >
+            <div class="callout project" style="height:150px">
+              <p>tinyApp: A URL shortener app using encrypted session cookies for
+                user authorization. Node, Express, PostgreSQL, styled with Materialize.css
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Timeline -->
+      <br>
+      <div class="grid-x" >
+        <h1 class="h4 cell text-center">Experience</h1>
+      </div>
+
       <div class="timeline">
         <div class="timeline-item">
           <div class="timeline-icon">
@@ -129,6 +186,8 @@
         </div>
       </div>
     </div>
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>$(document).foundation();</script>
