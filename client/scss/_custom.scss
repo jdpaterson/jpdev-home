@@ -1,0 +1,50 @@
+.grid-container-bg {
+  background-color: #F2F3F4;
+}
+.span-pad {
+  margin: 2em 0em;
+}
+
+@media screen and (max-width: 600px) {
+  .grid-container {
+    margin: 0em 2em;
+
+    .contact-icon {
+      margin: 0.25em 0em;
+    }
+
+    section.content{
+        padding: 1em 1em 0em;
+        p {
+          margin: 0px;
+        }
+    }
+    .timeline {
+      margin-top: 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .grid-container {
+    margin: 1em 5em;
+
+    .contact-icon {
+      margin: 0.5em 0em;
+    }
+
+  }
+  section.content{
+      padding: 1em 1em 0em;
+      p {
+        margin: 0px;
+      }
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .contact-icon {
+    padding: 0em 0em 1em;
+
+  }
+}
