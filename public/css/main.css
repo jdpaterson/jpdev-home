@@ -55,12 +55,13 @@
       overflow: hidden;
       position: absolute;
       top: 0;
-      width: 50px; }
+      width: 50px;
+      display: flex;
+      justify-content: center; }
       .timeline .timeline-item .timeline-icon img,
       .timeline .timeline-item .timeline-icon svg {
-        left: 13px;
-        position: relative;
-        top: 11px; }
+        align-self: center;
+        position: relative; }
       .timeline .timeline-item .timeline-icon svg {
         top: 14px; }
     .timeline .timeline-item .timeline-content {
@@ -72,11 +73,11 @@
       .timeline .timeline-item .timeline-content p {
         color: #55505c; }
       .timeline .timeline-item .timeline-content p {
-        font-size: 12px;
+        font-size: 1em;
         line-height: 1.4;
         margin-bottom: 0; }
       .timeline .timeline-item .timeline-content .timeline-content-date {
-        font-size: 16px;
+        font-size: 1.2em;
         font-weight: bold;
         margin-bottom: 0; }
       .timeline .timeline-item .timeline-content .timeline-content-month {
@@ -116,7 +117,7 @@
   .grid-container {
     margin: 0em 2em; }
     .grid-container .contact-icon {
-      margin: 0.25em 0em; }
+      margin: 0.25em; }
     .grid-container section.content {
       padding: 1em 1em 0em; }
       .grid-container section.content p {
@@ -125,6 +126,8 @@
       margin-top: 10px; } }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+  body {
+    font-size: 2em; }
   .grid-container {
     margin: 1em 5em; }
     .grid-container .contact-icon {
@@ -683,6 +686,20 @@ h6, .h6 {
   margin-bottom: 0.5rem; }
 
 @media print, screen and (min-width: 40em) {
+  h1, .h1 {
+    font-size: 3.75rem; }
+  h2, .h2 {
+    font-size: 3.125rem; }
+  h3, .h3 {
+    font-size: 2.42188rem; }
+  h4, .h4 {
+    font-size: 1.95312rem; }
+  h5, .h5 {
+    font-size: 1.5625rem; }
+  h6, .h6 {
+    font-size: 1.25rem; } }
+
+@media print, screen and (min-width: 64em) {
   h1, .h1 {
     font-size: 3.75rem; }
   h2, .h2 {
